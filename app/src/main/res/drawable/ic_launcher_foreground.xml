@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Group to center within the 108dp space (Icon is 48x48 inside a 108 viewport -> scale up x1.5 -> size 72, translate 18) -->
+    <group
+        android:scaleX="1.6"
+        android:scaleY="1.6"
+        android:translateX="15.6"
+        android:translateY="15.6">
+        
+        <!-- Outer Sync/Globe ring (Neon Purple Glow #7A5BFF) -->
+        <path
+            android:fillColor="#7A5BFF"
+            android:pathData="M24,2C11.85,2 2,11.85 2,24s9.85,22 22,22c5.9,0 11.23,-2.33 15.17,-6.13l-2.83,-2.83C33.16,40.16 28.84,42 24,42c-9.94,0 -18,-8.06 -18,-18c0,-9.94 8.06,-18 18,-18c9.94,0 18,8.06 18,18h-4l5,5l5,-5h-4C46,11.85 36.15,2 24,2z" />
+
+        <!-- Meridian lines representing a globe -->
+        <path
+            android:fillColor="#7A5BFF"
+            android:pathData="M24,4c-4.42,0 -8.5,8.95 -8.5,20s4.08,20 8.5,20s8.5,-8.95 8.5,-20S28.42,4 24,4z M24,40c-2.43,0 -4.5,-7.16 -4.5,-16S21.57,8 24,8s4.5,7.16 4.5,16S26.43,40 24,40z" />
+        <path
+            android:fillColor="#7A5BFF"
+            android:pathData="M4,22h38v4H4z" />
+        <path
+            android:fillColor="#7A5BFF"
+            android:pathData="M6,14h34v4H6z M6,30h34v4H6z" />
+            
+        <!-- Dark Core blocking the globe center for the clock face -->
+        <path
+            android:fillColor="#1B1B22"
+            android:pathData="M24,11A13,13 0,1,0 37,24A13,13 0,0,0 24,11Z" />
+
+        <!-- Neon Purple Clock Face Center Ring -->
+        <path
+            android:fillColor="#7A5BFF"
+            android:pathData="M24,12C17.37,12 12,17.37 12,24s5.37,12 12,12s12,-5.37 12,-12S30.63,12 24,12z M24,34c-5.52,0 -10,-4.48 -10,-10s4.48,-10 10,-10s10,4.48 10,10S29.52,34 24,34z" />
+
+        <!-- Clock Hands -->
+        <path
+            android:fillColor="#7A5BFF"
+            android:pathData="M25,16h-2v8.59l4.59,4.58l1.41,-1.41l-4,-4z" />
+    </group>
+</vector>
